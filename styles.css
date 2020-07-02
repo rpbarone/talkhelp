@@ -1,0 +1,1114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url(GothamBook.ttf);
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url(GothamBold.ttf);
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url(GothamMedium.ttf);
+}
+
+/* header mobile */
+
+.header-container {
+  width: 100%;
+  height: 86.2rem;
+  padding: 4rem 3rem 17.2rem 3rem;
+  background-image: url('headerBg.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  width: 7.33rem;
+  height: 6.5rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+
+.menu-icon {
+  height: 1.9rem;
+  width: 2.82rem;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+/* header web */
+.menu {
+  display: none;
+  list-style: none;
+  display: flex;
+  font-size: 1.6rem;
+  margin-left: auto;
+}
+
+.menu li a {
+  display: none;
+  font-family: 'Gotham Book';
+  color: white;
+  text-decoration: none;
+  margin-left: 4rem;
+}
+
+/* cadastro lista */
+
+.video-intro {
+  margin-top: 4rem;
+  border-radius: 10px;
+}
+
+.register-list {
+  text-align: center;
+  margin-top: 4rem;
+  color: #FFFFFF;
+}
+
+.register-list h1 {
+  font-family: 'Gotham Bold';
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+}
+
+.register-list p {
+  margin-top: 4rem;
+  font-family: 'Gotham Book';
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+}
+
+.input-group {
+  width: 100%;
+  position: relative;
+}
+
+.email {
+  margin-top: 4rem;
+  font-size: 1.3rem;
+  width: 100%;
+  height: 4rem;
+  padding-left: 2rem;
+  border-radius: 3rem 3rem 3rem 3rem;
+  outline: none;
+  border: none;
+  color: rgba(60, 60, 60, 0.8);
+  font-family: 'Gotham Book';
+}
+
+.button {
+  width: 25%;
+  font-size: 1.3rem;
+  height: 4rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: none;
+  outline: none;
+  border-radius: 0 3rem 3rem 0;
+  background-color: #3C3C3C;
+  font-family: 'Gotham Book';
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+/* mobile menu */
+.menu-mobile {
+  display: none;
+  margin: 0 auto;
+  padding: 4rem 0;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-mobile {
+  padding-left: 11.6rem;
+}
+
+#btn-close {
+  padding-left: 11.6rem;
+  font-size: 1.9rem;
+  font-family: 'Gotham Medium';
+  color: #3C3C3C;
+  cursor: pointer;
+}
+
+.menu-links-mobile {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-links-mobile li {
+  margin-bottom: 2.4rem;
+}
+
+.menu-links-mobile li a {
+  font-family: 'Gotham Medium';
+  font-size: 1.5rem;
+  color: #3C3C3C;
+  text-decoration: none;
+}
+
+.login-area-mobile {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-in-mobile {
+  width: 11.925rem;
+  height: 3.15rem;
+  background: #F8555B;
+  border: .2rem solid #F8555B;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  font-family: 'Gotham Medium';
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.sign-up-mobile {
+  width: 11.925rem;
+  height: 3.15rem;
+  background: #3C3C3C;
+  border: .2rem solid #3C3C3C;
+  border-radius: 1rem;
+  font-family: 'Gotham Medium';
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-top: 1.6rem;
+}
+
+.social-icons-mobile a{
+  margin-right: 1.6rem;
+}
+
+.social-icons-mobile .last-link {
+  margin-right: 0;
+}
+
+/* APP Section */
+
+.app {
+  width: 100%;
+  margin-top: 8.7rem;
+}
+
+.app-info {
+  width: 100%;
+  padding: 1rem 3rem;
+  margin: 0 auto;
+}
+
+.app-info h1 {
+  font-family: 'Gotham Bold';
+  color: #3c3c3c;
+  font-size: 2rem;
+}
+
+.app-info p {
+  font-family: 'Gotham Book';
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-top: 4rem;
+  color: rgba(0,0,0,0.6);
+}
+
+.buttons-app {
+  display: flex;
+}
+
+.app-download, .play-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15.1rem;
+  height: 4.1rem;
+  background-color: #3C3C3C;
+  box-shadow: 0px 5px 8px #00000033;
+  border-radius: 1rem;
+  color: #FFFFFF;
+}
+
+.app-download, .play-download {
+  margin-top: 4rem;
+}
+
+.app-download {
+  margin-right: .8rem;
+}
+
+
+.apple-icon {
+  width: 2.1rem;
+  height: 2.5rem;
+  margin-right: 1.2rem;
+}
+
+.play-icon {
+  width: 2.3rem;
+  height: 2.5rem;
+  margin-right: 1.2rem;
+}
+
+.action-details .download {
+  font-family: 'Gotham Book';
+  font-size: 1.1rem;
+}
+
+.action-details .name {
+  font-family: 'Gotham Medium';
+  font-size: 1.6rem;
+}
+
+.app-image {
+  width: 100%;
+  height: 42.2rem;
+  position: relative;
+}
+
+.app-mockup {
+  width: 100%;
+  height: 100%;
+}
+
+.shape1 {
+  width: 11.4rem;
+  height: 20.2rem;
+  position: absolute;
+  right: 0;
+  top: 65%;
+  transform: translateY(-65%);
+}
+
+
+/* PROFISSIONAIS SECTION */
+.profissionais {
+  position: relative;
+}
+
+.profissionais-info {
+  position: relative;
+  padding: 1rem 4rem;
+}
+
+.profissionais-info h2 {
+  font-family: 'Gotham Bold';
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #3C3C3C;
+  margin-top: 4rem;
+}
+
+.profissionais-info p {
+  font-family: 'Gotham Book';
+  text-align: right;
+  color: rgba(0,0,0,0.6);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-top: 4rem;
+}
+
+.poligono-bg {
+  width: 14.8rem;
+  height: 30.5rem;
+  position: absolute;
+  top: -4rem;
+}
+
+.profissionais-cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5.925rem auto 0 auto;
+}
+
+.card-med, .card-psico, .card-nutri, .card-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15.1rem;
+  height: 17rem;
+  position: relative;
+  margin-bottom: 1.6rem;
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+  background-color: #FFFFFF;
+}
+
+.card-med:before, .card-psico:before, .card-nutri:before, .card-vet:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  bottom: 1.2rem;
+  left: 3rem;
+  right: 3rem;
+  top: 1.4rem;
+  background: #777;
+  -webkit-box-shadow: 0 0 3rem 1.7rem #00000033;
+  -moz-box-shadow: 0 0 3rem 1.7rem #00000033;
+  box-shadow: 0 0 3rem 1.7rem #00000033;
+  border-radius: 10rem/1rem;
+}
+
+.card-circle-med, .card-circle-psico, .card-circle-nutri, .card-circle-vet {
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-circle-med {
+  background-color: #F77678;
+}
+
+.card-circle-psico {
+  background-color: #FA7297;
+}
+
+.card-circle-nutri {
+  background-color: #F79471;
+}
+
+.card-circle-vet {
+  background-color: #AC4273;
+}
+
+.icon-med, .icon-psico, .icon-nutri, .icon-vet {
+  width: 4.5rem;
+  height: 6.9rem;
+}
+
+.icon-med {
+  background: url('medico.svg');
+  background-size: cover;
+}
+
+.icon-psico {
+  background: url('psicologo.svg');
+  background-size: cover;
+}
+
+.icon-nutri {
+  background: url('nutricionista.svg');
+  background-size: cover;
+}
+
+.icon-vet {
+  background: url('veterinario.svg');
+  background-size: cover;
+
+}
+
+.card-text {
+  margin-top: 2.4rem;
+  font-size: 1.6rem;
+  color: #3C3C3C;
+  font-family: 'Gotham Book';
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.coming-soon {
+  width: 100%;
+  padding: .35rem 0;
+  background-color: #3C3C3C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transform: rotate(30deg);
+  right: -5.2rem;
+  top: .6rem;
+}
+
+.coming-soon span {
+  font-family: 'Gotham Book';
+  font-size: .85rem;
+  color: #FFFFFF;
+}
+
+/* VANTAGENS PROFISSIONAIS SECTION */
+
+.vantagens-profissionais {
+  width: 100%;
+  margin-top: 4rem;
+  background-color: #EECBDB;
+  height: 92rem;
+  position: relative;
+}
+
+.vantagens-pacientes {
+  width: 100%;
+  background-color: #FFFFFF;
+  height: 92rem;
+  position: relative;
+}
+
+.profissionais-bg {
+  padding-top: 4.7rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 27.7rem;
+  height: 40.8rem;
+}
+
+.pacientes-bg {
+  padding-top: 4.7rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 27.7rem;
+  height: 40.8rem;
+}
+
+.nossas-vantagens {
+  width: 31.6rem;
+  max-height: 58.12rem;
+  padding: 3.44rem 2.4rem 4.6rem 2.4rem;
+  background: #FFFFFF;
+  position: relative;
+  top: 80%;
+  margin: 0 auto;
+  box-shadow: -3px 23px 25px #0000000F;
+  border-radius: 1rem 1rem 8rem 1rem;
+  transform: translateY(-80%);
+}
+
+.nossas-vantagens-pacientes {
+  width: 31.6rem;
+  max-height: 58.12rem;
+  padding: 3.44rem 2.4rem 4.6rem 2.4rem;
+  background: #FFFFFF;
+  position: relative;
+  top: 80%;
+  right: 4rem;
+  margin: 0 auto;
+  box-shadow: -3px 23px 25px #0000000F;
+  border-radius: 1rem 1rem 8rem 1rem;
+  transform: translateY(-80%);
+}
+
+.nossas-vantagens h2, .nossas-vantagens-pacientes h2 {
+  font-family: 'Gotham Bold';
+  font-size: 1.8rem;
+  color: #3C3C3C;
+  margin-bottom: 3.6rem;
+}
+
+.lista-vantagens, .lista-vantagens-pacientes {
+  list-style: none;
+}
+
+.lista-vantagens li, .lista-vantagens-pacientes li {
+  font-family: 'Gotham Book';
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: rgba(0,0,0,0.6);
+  display: flex;
+  margin-bottom: 1.6rem;
+}
+
+li .check-icon {
+  width: 1.85rem;
+  height: 1.85rem;
+  margin-right: .95rem;
+  align-self: center;
+}
+
+.ilustracao1 {
+  display: none;
+}
+
+
+/* @@@ FOOTER SECTION @@@ */
+
+.footer-container {
+  width: 100%;
+  height: 100.8rem;
+  padding: 4rem 0;
+  background-image: url('footerBgMobile.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-options {
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-weight: normal;
+  text-align: center;
+}
+
+.footer-app {
+  margin-top: 13rem;
+}
+
+.footer-app h1, .footer-contato h1, .footer-sociais h1, .footer-menu h1 {
+  font-family: 'Gotham Medium';
+  font-weight: normal;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+
+
+.footer-contato span {
+  font-family: 'Gotham Book';
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.85);
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.buttons-app-column {
+  cursor: pointer;
+  flex-direction: column;
+}
+
+
+.social-icons {
+  margin-top: 2.25rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-list li {
+  font-family: 'Gotham Book';
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.menu-list .first-child {
+  margin-top: 2.25rem;
+}
+
+.app-download2, .play-download2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15.1rem;
+  height: 4.1rem;
+  background-color: #3C3C3C;
+  box-shadow: 0px 5px 8px #00000033;
+  border-radius: 1rem;
+  color: #FFFFFF;
+}
+
+.app-download2, .play-download2 {
+  margin-top: 0;
+}
+
+.app-download2 {
+  margin-right: 0;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 350px) {
+  .button {
+    width: 100%;
+    border-radius: 3rem;
+    margin-top: .8rem;
+    position: initial;
+  }
+}
+
+@media screen and (min-width: 528px) {
+  .profissionais-cards {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .app-info {
+    width: 80%;
+    margin: 0 0;
+  }
+
+  .profissionais-cards {
+    width: 65%;
+    margin: 8.925rem auto 0 auto;
+  }
+
+  .app-mockup {
+    position: absolute;
+    right: -8%;
+    transform: translateX(8%);
+  }
+
+  .profissionais-info h2 {
+    width: 45%;
+  }
+
+  .profissionais-info p {
+    width: 45%;
+    position: absolute;
+    right: 4rem;
+    top: 2rem;
+  }
+
+  .footer-app {
+    margin-top: 0;
+  }
+
+
+}
+
+
+@media screen and (min-width: 700px) {
+  .input-group {
+    display: flex;
+    justify-content: center;
+  }
+
+  .email {
+    width: 80%;
+  }
+
+  .button {
+    width: 20%;
+    right: 5rem;
+  }
+
+  .video-intro {
+    width: 80%;
+    margin: 4rem auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .logo {
+    width: 11rem;
+    height: 9.75rem;
+  }
+
+  .register-list {
+    width: 70%;
+    margin: 4rem auto;
+  }
+
+  .button {
+    right: 4rem;
+  }
+
+  .video-intro {
+    width: 65%;
+  }
+
+  .app-mockup {
+    width: 80%;
+  }
+
+  .app-info {
+    width: 65%;
+    padding: 1rem 4rem;
+  }
+
+  .profissionais-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .profissionais-info h2 {
+    width: 40%;
+  }
+
+  .profissionais-info p {
+    width: 40%;
+  }
+
+  .profissionais-cards {
+    width: 100%;
+  }
+
+  .vantagens-profissionais {
+    z-index: -5;
+    display: flex;
+    padding: 8rem 0;
+    height: 72rem;
+    background-color: #FFFFFF;
+  }
+
+  .profissionais-bg {
+    display: none;
+  }
+
+  .nossas-vantagens {
+    margin-top: 8rem;
+    margin: initial;
+    margin-left: 4rem;
+    position: initial;
+    transform: initial;
+    top: initial;
+  }
+
+  .ilustracao1 {
+    display: block;
+  }
+
+  .il1 {
+    width: 32.5rem;
+    height: 39rem;
+    position: absolute;
+    top: 11%;
+    right: 3.2%;
+    transform: translateX(-3.2%);
+  }
+
+  .il2 {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    width: 22.61rem;
+    height: 49.06rem;
+    z-index: -1;
+  }
+
+  .nossas-vantagens-pacientes {
+    margin-top: 8rem;
+    margin: initial;
+    margin-left: 4rem;
+    position: initial;
+    transform: initial;
+    top: initial;
+  }
+
+  .pacientes-bg {
+    padding-top: 0;
+    position: absolute;
+    top: initial;
+    left: 5rem;
+    transform: none;
+    width: 27.7rem;
+    height: 40.8rem;
+  }
+
+  .vantagens-pacientes {
+    z-index: -5;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8rem 4rem;
+    height: 72rem;
+    background-color: #FFFFFF;
+  }
+
+  .footer-container {
+    background-image: url('footerBg.svg');
+    position: relative;
+    height: 65rem;
+  }
+
+  .footer-options {
+    padding: 0 4rem;
+    height: auto;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 4rem;
+  } 
+  
+  .nossas-vantagens-pacientes {
+    position: absolute;
+  }
+
+}
+
+@media screen and (min-width: 1080px) {
+  #mobile-toggle {
+    display: none;
+  }
+
+  .logo {
+    position: initial;
+    left: initial;
+    transform: initial;
+    top: initial;
+  }
+
+  .header-container {
+    padding: 4rem 4.8rem 17.2rem 4.8rem;
+  }
+
+  .register-list {
+    width: 40%;
+    text-align: left;
+  }
+
+  .main-content {
+    width: 100%;
+    display: flex;
+    height: calc(100% - 12rem);
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .input-group {
+    justify-content: flex-start;
+  }
+
+  .video-intro {
+    width: 45%;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .menu li a {
+    display: block;
+  }
+
+  .app-info {
+    width: 100%;
+  }
+
+  .app {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .app-image {
+    height: 48rem;
+  }
+
+  .shape1 {
+    width: 22.4rem;
+    height: 40.2rem;
+    z-index: -6;
+  }
+
+  .app-mockup {
+    width: 100%;
+    right: 2%;
+    transform: translateX(-2%);
+  }
+
+  .ilustracao1 {
+    display: block;
+  }
+
+  .il1 {
+    right: 2.7%;
+    transform: translateX(-2.7%);
+  }
+
+
+}
+
+@media screen and (min-width: 1250px) {
+  .profissionais-cards {
+    width: 100%;
+  }
+
+  .card-med, .card-psico, .card-nutri, .card-vet {
+    width: 19.63rem;
+    height: 22.1rem;
+    margin-bottom: 1.6rem;
+    margin-right: 2.4rem;
+    margin-left: 2.4rem;
+  }
+
+  .icon-med {
+    background: url('medico.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .icon-psico {
+    background: url('psicologo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .icon-nutri {
+    background: url('nutricionista.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .icon-vet {
+    background: url('veterinario.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .card-circle-med, .card-circle-psico, .card-circle-nutri, .card-circle-vet {
+    width: 9.75rem;
+    height: 9.75rem;
+  }
+  
+  .card-text {
+    margin-top: 2.4rem;
+    font-size: 1.6rem;
+  }
+  
+  
+  .coming-soon {
+    padding: .85rem 0;
+    right: -5.2rem;
+    top: 1rem;
+  }
+  
+  .coming-soon span {
+    font-size: .85rem;
+  }
+
+
+}
+
+
+@media screen and (min-width: 1450px) {
+
+  .register-list h1, .app-info h1, .profissionais h2  {
+    font-size: 2.7rem;
+    line-height: 4rem;
+  }
+
+ 
+
+  .email, .button {
+    margin-top: 4.8rem;
+    height: 4.8rem;
+  }
+
+  .email {
+    width: 70%;
+  }
+
+  .button {
+    width: 28%;
+    padding: 1.5rem .5rem;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .il1 {
+    width: 32.5rem;
+    height: 39rem;
+    position: absolute;
+    right: 2.1%;
+    transform: translateX(-2.1%);
+  }
+}
+
+
+/* font responsive */
+
+@media screen and (min-width: 455px) {
+  html, body {
+    font-size: 65%;
+  }
+}
+
+@media screen and (min-width: 591.5px) {
+  html, body {
+    font-size: 67.5%;
+  }
+}
+
+@media screen and (min-width: 768.95px) {
+  html, body {
+    font-size: 70%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html, body {
+    font-size: 75%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  html, body {
+    font-size: 85%;
+  }
+}
+
+@media screen and (min-width: 1690px) {
+  html, body {
+    font-size: 95%;
+  }
+}
+
+@media screen and (min-width: 2197px) {
+  html, body {
+    font-size: 110%;
+  }
+}
